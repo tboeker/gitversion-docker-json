@@ -1,7 +1,7 @@
 FROM gittools/gitversion:v4.0.0-beta.12
 
 # Install GitVersion
-RUN curl -Ls https://github.com/GitTools/GitVersion/releases/download/v4.0.0-beta.9/GitVersion.CommandLine.4.0.0-beta0009.nupkg -o tmp.zip \ 
+RUN curl -Ls https://github.com/GitTools/GitVersion/releases/download/v4.0.0-beta.13/GitVersion.CommandLine.4.0.0-beta0013.nupkg -o tmp.zip \ 
   && unzip -d /usr/lib/GitVersion tmp.zip \
   && rm tmp.zip
     
